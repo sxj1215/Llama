@@ -16,6 +16,39 @@
       "tools": "tools"
     }
   },
+  "brats_demo": {
+    "file_name": "/2024-vol/xj/reasoning/barts2018/slices/brats2018_train_fullpath_filter.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "images": "images",
+      "messages": "conversations"
+    }
+  },
+  
+  "brats": {
+    "file_name": "./training_data/brats2018_train_fullpath_filter_relative.jsonl",
+    "formatting": "sharegpt",
+  "columns": {
+      "images": "images",
+      "messages": "conversations"
+    }
+  },
+  "mimic_cxr_vqa": {
+    "file_name": "./training_data/conversation_torchxrayvision_with_path.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "images": "images",
+      "messages": "conversations"
+    }
+  },
+  "mimic_cxr_report": {
+    "file_name": "./training_data/mimic_expert.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "images": "images",
+      "messages": "conversations"
+    }
+  },
   "glaive_toolcall_zh_demo": {
     "file_name": "glaive_toolcall_zh_demo.json",
     "formatting": "sharegpt",
